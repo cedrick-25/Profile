@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/cedrick.tan/Downloads/ced/index.html.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedrick Tan - Professional Profile</title>
+    <link href="./Cedrick Tan - Professional Profile_files/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and HTML full viewport */
+        html, body {
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background: #87CEEB;
+            position: relative;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* Lightning strike effect on text */
+        @keyframes lightningStrike {
+            0% {
+                text-shadow: none;
+                color: white;
+            }
+            50% {
+                text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+                color: #ff0;
+            }
+            100% {
+                text-shadow: none;
+                color: white;
+            }
+        }
+
+        h1, p {
+            animation: lightningStrike 1s infinite alternate; /* Lightning strike effect */
+        }
+
+        header {
+            background-color: #343a40;
+            text-align: center;
+            padding: 5rem 0;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Typing animation like coding */
+        .typewriter {
+            display: inline-block;
+            border-right: 3px solid white;
+            padding-right: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            0% {
+                border-right-color: white;
+            }
+            50% {
+                border-right-color: transparent;
+            }
+            100% {
+                border-right-color: white;
+            }
+        }
+
+        /* Snowball effect */
+        .snowball {
+            position: absolute;
+            top: -10px;
+            font-size: 24px;
+            color: white;
+            pointer-events: none;
+            user-select: none;
+            animation: snowfall 10s linear infinite;
+        }
+
+        @keyframes snowfall {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+            100% {
+                transform: translateY(100vh) translateX(100px);
+            }
+        }
+
+        .snowball:nth-child(odd) {
+            animation-duration: 12s;
+        }
+
+        .snowball:nth-child(even) {
+            animation-duration: 10s;
+        }
+
+        /* Add random positions and sizes for snowballs */
+        .snowball {
+            font-size: calc(10px + 20 * (Math.random())); /* Random size */
+            left: calc(100% * Math.random());
+            animation-delay: calc(-10s + 20s * Math.random()); /* Random delay */
+        }
+
+        main {
+            margin: 5rem 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Snowballs -->
+    <div class="snowball" style="left: 10%; animation-delay: 0s;">☃️</div>
+    <div class="snowball" style="left: 20%; animation-delay: 1s;">☃️</div>
+    <div class="snowball" style="left: 30%; animation-delay: 2s;">☃️</div>
+    <div class="snowball" style="left: 40%; animation-delay: 3s;">☃️</div>
+    <div class="snowball" style="left: 50%; animation-delay: 4s;">☃️</div>
+    <div class="snowball" style="left: 60%; animation-delay: 5s;">☃️</div>
+    <div class="snowball" style="left: 70%; animation-delay: 6s;">☃️</div>
+    <div class="snowball" style="left: 80%; animation-delay: 7s;">☃️</div>
+
+    <header class="bg-dark text-white text-center py-5">
+        <img src="./Cedrick Tan - Professional Profile_files/DSC_0472 cl sc.jpeg" alt="Cedrick Tan" class="rounded-circle mb-3">
+        <h1 class="typewriter">Cedrick S. Tan</h1>
+        <p class="typewriter">Mechanical Engineer | Tool and Die Technologist | Safety Officer 2 | Computer Technician</p>
+    </header>
+
+    <main class="container my-5">
+        <section id="contact" class="mb-5">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: tancedrick25@gmail.com | tan.cedrick2596@gmail.com</li>
+                <li>Phone: (+63) 9661729497 (Globe) | (+63) 9625886280 (Smart)</li>
+                <li>Location: Muntinlupa City, Philippines</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/cedrick-tan-007725203/">cedrick-tan-007725203</a></li>
+            </ul>
+        </section>
+
+        <section id="skills" class="mb-5">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Engineering Skills:</strong> Mechanical Engineering, Tool &amp; Die, CNC Machine, Lathe, Machining, Welding, Metals, Engineering Drawings</li>
+                <li><strong>Design and CAD:</strong> AutoCAD, Computer-Aided Design (CAD), SOLIDWORKS</li>
+                <li><strong>Solar and Energy Systems:</strong> Solar Systems, Solar System Design, Solar PV, Aurora, Everbright, Scanifly</li>
+                <li><strong>Technical and Maintenance:</strong> Preventive Maintenance, Maintenance Management, Troubleshooting, Technical Support</li>
+                <li><strong>IT and Software:</strong> Computer Literacy, Computer Repair, Computer Hardware, Computer Networking, Computer Programming</li>
+                <li><strong>Project and Tools:</strong> Project Management, Project Monitoring, PMS (Preventive Maintenance Schedule), monday.com, Salesforce.com, NetSuite</li>
+                <li><strong>Office and Reporting:</strong> Microsoft Office, Reporting &amp; Analysis</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="mb-5">
+            <h2>Professional Experience</h2>
+            <div>
+                <h4>PV Engineer Cum Asset Custodian</h4>
+                <p><em>Phil-Nippon Kyoei Corporation (Manila, Philippines)</em> | Sep 2024 - Present</p>
+                <h5>As PV Engineer:</h5>
+                <ul>
+                    <li>Monitor and report PV plant operations, preventive, and corrective maintenance activities against schedule and plan.</li>
+                    <li>Execute maintenance activities to ensure compliance with the Scope of Work and quality objectives of the PV plant.</li>
+                    <li>Regularly provide clear reports to management and clients.</li>
+                    <li>Maintain effective communication with the operations team.</li>
+                    <li>Collaborate with partners on new projects and oversee solar plant installation status.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Photovoltaic Design Engineer II</h4>
+                <p><em>RBIEL Services OPC / Sunrun (Quezon City, Philippines)</em> | Aug 2022 - Mar 2024</p>
+                <ul>
+                    <li>Developed comprehensive PV system layouts and bills of materials.</li>
+                    <li>Prepared construction drawings and performed electrical calculations.</li>
+                    <li>Utilized Salesforce and advanced Excel tools for project management.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="mb-5">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Mechanical Engineering | Technological University of the Philippines Manila (2016 - 2021)</li>
+                <li>Tool and Die Engineering Technology | Technological University of the Philippines Manila (2012 - 2015)</li>
+            </ul>
+        </section>
+
+        <section id="certifications" class="mb-5">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AutoCAD Professional Certification | Itronix Solutions</li>
+                <li>English Language Proficiency Test (C1 Advanced) | EF SET</li>
+                <li>Computer Hardware Servicing | TESDA</li>
+                <li>Safety Officer 2 | Basic Occupational Safety and Health (BOSH)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>© 2024 Cedrick S. Tan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./Cedrick Tan - Professional Profile_files/bootstrap.bundle.min.js.download"></script>
+
+
+</body></html>
